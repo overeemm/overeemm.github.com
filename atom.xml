@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Michiel Overeem</title>
+ <link href="http://blog.movereem.nl/atom.xml" rel="self"/>
+ <link href="http://blog.movereem.nl/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://blog.movereem.nl/</id>
+ <author>
+    <name>Michiel Overeem</name>
+    <email>overeemm@gmail.com</email>
+ </author>
+
+ {% for post in site.posts limit:50 %}
+    <entry>
+	    <title>{{ post.title }}</title>
+	    <link href="http://www.huangzhimin.com{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+ 	    <id>http://nl.blog.movereem.nl{{ post.id }}</id>
+		<content type="html">{{ post.content | xml_escape }}</content>
+	</entry>
+ {% endfor %}
+
+</feed>
