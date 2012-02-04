@@ -72,7 +72,7 @@ We cannot use __instanceof__ anymore, but we can easily create objects with the 
 The prototype approach can also be used without constructors and the __new__ keyword. [ECMAScript 5th Edition][3] added a new function, Object.create. This function creates a new object using the given object as prototype.
 
 Douglas Crockford has some nice articles ([this][4] and [this][5]) about inheritance and reuse in JavaScript. Because objects in JavaScript are soft and can be changed at any moment, he hardly sees use for the Classical Inheritance approach.
-Peter Michaux also [writes][7] about the augmentation approach, seeing the Decorator Pattern in it.
+Peter Michaux also [writes][8] about the augmentation approach, seeing the Decorator Pattern in it.
 
 Another discussion raised by looking at the [SOLID principles][6] is the usage of inheritance. Most of the time, inheritance is used for method overloading and polymorphic methods. The Liskov Substitution Principle states that __Subtypes must be substitutable for their base types.__ But JavaScript is not statically typed. This gives us the freedom to do more dynamic typing. Instead of looking at inheritance, we can look at behavior. By checking if certain functions are present we can be much more flexible in the range of objects that we can act on.
 
@@ -91,7 +91,7 @@ Another discussion raised by looking at the [SOLID principles][6] is the usage o
 
 The moveDynamic function shows that we can move any object that has a move function. The move function only works on instances of our constructor function. The last fits the dynamic model and gives more flexibility.
 
-[http://stackoverflow.com/questions/2271166/when-should-you-use-prototype-during-object-augmentation-in-javascript]
+[9]: http://stackoverflow.com/questions/2271166/when-should-you-use-prototype-during-object-augmentation-in-javascript]
 [1]: http://en.wikipedia.org/wiki/Prototype-based_programming
 [2]: http://iolanguage.com/
 [3]: https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/create
