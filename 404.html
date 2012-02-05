@@ -23,11 +23,12 @@
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-
+<!--
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+-->
 
         <link rel="me" type="text/html" href="http://profiles.google.com/overeemm?rel=me"> 
         <link rel="me" type="text/html" href="http://twitter.com/michielovereem"> 
@@ -63,7 +64,8 @@
                 <hr />
             </div>
             <div class="seven-ninth column">
-        		{{ content }}
+        		<h2 class="entry-title">Not found</h2>
+        		<div>The page you requested was not found. Use the <a title="View posts by date" href="/date.html">archives</a> to locate the post you were searching for.</div>
             </div>
             <div class="two-ninth column">
                 <h3>About Michiel</h3>
@@ -85,12 +87,6 @@
                     <li><a title="View posts by date" href="/date.html">by date</a></li>
                     <li><a title="View posts by topic" href="/topic.html">by topic</a></li>
                   </ul>
-                </p>
-                
-                <h3>React</h3>
-                <p>
-                    I have decided to not use comments on my blog. 
-                    You are welcome to react on google+ or twitter.
                 </p>
             </div>
 
@@ -128,36 +124,6 @@
         </div>
     
         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-
-        <script src="/scripts/shCore.js" type="text/javascript"></script>
-        <script src="/scripts/shAutoloader.js" type="text/javascript"></script>
-
-        <script type="text/javascript">
-        
-        $('code').each(function () {
-            var $codeBlock = $(this);
-            var $preBlock = $codeBlock.parent("pre");
-            if($preBlock.length === 1){
-                var lines = $codeBlock.text().split(/\r\n|\r|\n/);
-                var firstLine = lines[0];
-                // Something like #js
-                $preBlock.addClass("brush: "+firstLine.substring(1));
-                $preBlock.html(lines.slice(1).join("\n"));
-            }
-        });
-        
-        SyntaxHighlighter.autoloader(
-            'js jscript javascript  /scripts/shBrushJScript.js',
-            'applescript            /scripts/shBrushAppleScript.js',
-            'c# c-sharp csharp      /scripts/shBrushCSharp.js',
-            'java                   /scripts/shBrushJava.js',
-            'xml xhtml xslt html    /scripts/shBrushXml.js',
-            'ruby rails ror rb      /scripts/shBrushRuby.js',
-            'css                    /scripts/shBrushCss.js'
-        );
-         
-        SyntaxHighlighter.all();
-        </script>
 
     </body>
 </html>
