@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: bookreview: Seven Languages in Seven Weeks by Bruce Tate
-tags: [reading, bookreview]
+title: bookreview Seven Languages in Seven Weeks by Bruce Tate
+categories: [reading, bookreview]
 ---
 Seven Languages in Seven Weeks by Bruce Tate
  

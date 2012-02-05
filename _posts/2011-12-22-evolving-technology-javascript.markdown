@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: The rise of JavaScript
-tags: [javascript]
+categories: [javascript]
 ---
 _I'm digging deeper into JavaScript lately, and I like what I find, see and try._ 
 

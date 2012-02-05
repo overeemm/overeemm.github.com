@@ -1,0 +1,18 @@
+---
+layout: default
+title: blog.movereem.nl
+---
+<dl>
+{% for category in site.categories %}
+      <dt>
+      {{ category[0] }}
+      </dt>
+      <dd>
+      	<ul>
+	{% for post in category[1] %}
+	  <li>{{post.title}}</li>
+        {% endfor %}
+        </ul>
+      </dd>
+{% endfor %}
+</dl>

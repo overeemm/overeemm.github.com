@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Reading != learning
-tags: [learning, reading]
+categories: [learning, reading]
 ---
 I think that I have always been a reader. There is a box with books from my childhood, and now I have shelves full of books. A great number of them are technical. But there are also novels and history related books. I even signed up to review books for O’Reilly. I already did a number of them (including two reviews that were not for O’Reilly).
 

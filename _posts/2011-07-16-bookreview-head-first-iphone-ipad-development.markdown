@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: bookreview: Head First iPhone & iPad Development, 2nd Edition
-tags: [reading, bookreview]
+title: bookreview Head First iPhone & iPad Development, 2nd Edition
+categories: [reading, bookreview]
 ---
 Head First iPhone & iPad Development, 2nd Edition by Dan Pilone & Tracey Pilone
 

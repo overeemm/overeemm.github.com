@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Things learned from the Game of Life
-tags: [javascript]
+categories: [javascript]
 ---
 _I mentioned in the [previous blog post][6] that I am digging deeper into JavaScript lately. This post is the second in a series about JavaScript._
 

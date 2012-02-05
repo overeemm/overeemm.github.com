@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: bookreview: JavaScript, The Definitive Guide, 6th edition by David Flanagan
-tags: [reading, bookreview]
+title: bookreview JavaScript, The Definitive Guide, 6th edition by David Flanagan
+categories: [reading, bookreview]
 ---
 Javascript, The Definitive Guide, 6th Edition by David Flanagan
 

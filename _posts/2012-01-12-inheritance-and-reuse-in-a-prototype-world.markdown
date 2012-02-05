@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Inheritance and reuse in a prototype world
-tags: [javascript]
+categories: [javascript]
 ---
 One of the things that I struggled with writing JavaScript, is the [prototype-based programming][1]. Coming from a Java and C# background, it is hard to let go of classes, interfaces and _normal_ inheritance. In a Class-based object-oriented language the classes define how objects behave. An object is an instance of a class. Classes can inherit from other classes and interfaces. In JavaScript (and other prototype-based languages like [IO][2]) there are no classes. There are objects, constructors and prototypes.
 

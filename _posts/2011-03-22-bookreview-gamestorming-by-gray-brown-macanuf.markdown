@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: bookreview: Gamestorming by Gray, Brown, Macanufo
-tags: [reading, bookreview]
+title: bookreview Gamestorming by Gray, Brown, Macanufo
+categories: [reading, bookreview]
 ---
 Gamestorming, A Playbook for Innovators, Rulebreakers, and Changemakers by Dave Gray, Sunni Brown, James Macanufo
 

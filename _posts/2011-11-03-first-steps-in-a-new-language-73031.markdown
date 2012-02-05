@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: First steps in a new language
-tags: [ruby, learning]
+categories: [ruby, learning]
 ---
 One of my all time favorite books on software development is The Pragmatic Programmer: From Journeyman To Master. I highly recommend it. You do not have it? You didn’t read it yet? Go buy it!
 

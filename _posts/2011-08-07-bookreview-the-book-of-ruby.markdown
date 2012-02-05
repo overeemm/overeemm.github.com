@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: bookreview: the book of Ruby
-tags: [reading, bookreview]
+title: bookreview the book of Ruby
+categories: [reading, bookreview]
 ---
 The book of Ruby by Huw Collingbourne
 

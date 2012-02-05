@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Two years of reading summarized
-tags: [reading]
+categories: [reading]
 ---
 
 So I like to read... a lot. And not just books about programming or computer science, but like everything. 

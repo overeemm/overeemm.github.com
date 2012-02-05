@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Using Google APIs through OAuth 2.0
-tags: [C#, .NET, OAuth, gdocerous]
+categories: [C#, .NET, OAuth, gdocerous]
 ---
 
 Lately I’ve been working on a web application that connects to Google docs: gdocerous. During the development I’ve stumbled up on OAuth and other authorization protocols. This blog post is a small write-up of the experience.

@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: bookreview: Continuous Integration in .NET by Marcin Kawalerowicz and Craig Berntson
-tags: [reading, bookreview]
+title: bookreview Continuous Integration in .NET by Marcin Kawalerowicz and Craig Berntson
+categories: [reading, bookreview]
 ---
 Disclaimer: I responded to a tweet of Manning (http://www.twitter.com/manningbooks) and received a free copy of the e-book (Book Review: Continuous Integration in .NET by Marcin Kawalerowicz and Craig Berntson, http://www.manning.com/kawalerowicz/) to review it. I reviewed chapter 1 to 11 released to the MEAP.
  

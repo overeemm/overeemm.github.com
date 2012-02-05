@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: ebooks uitlenen
-tags: [reading, drm, ebooks]
+categories: [reading, drm, ebooks]
 ---
 Zoals de meeste die mij volgen op twitter wel weten lees ik nogal veel boeken (zie bijvoorbeeld mijn pagina op @deboekenlijst).
  

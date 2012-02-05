@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Notes from the class Advanced Agile Development
-tags: [reading, bookreview]
+categories: [reading, bookreview]
 ---
 Last week I attended the Advanced Agile Development class, organised by Xebia and given by Alistair Cockburn. With this post, I try to make my notes persistent for future reference.
 

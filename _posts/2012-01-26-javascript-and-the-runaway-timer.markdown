@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: JavaScript and the runaway timer
-tags: [javascript]
+categories: [javascript]
 ---
 One of the things that you probably will run into when creating a JavaScript application is the runaway timer. The runaway timer? Yes, the runaway timer. Ever seen this message?
 

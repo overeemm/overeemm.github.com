@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: My photo library over the years
-tags: [photo's]
+categories: [photo's]
 ---
 After reading Hanselmans blog I became curious. How does my photo library look?
  
