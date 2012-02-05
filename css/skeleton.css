@@ -276,3 +276,4 @@ p.about { background-image: url("/Images/blog.png");
           background-position: 0px -32px;
           height: 68px; margin-bottom: 0px; }
 span.postinfo { background-color:#efefef;padding:4px; }
+div.topiclist a { font-size: 14px; margin-left: 2px; margin-right: 2px; }

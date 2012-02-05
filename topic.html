@@ -3,9 +3,11 @@ layout: default
 title: Posts by topic
 ---
 
+<div class="topiclist">
 {% for category in site.categories %}
 <a href="#{{ category[0] }}">{{ category[0] }} ({{ category | last | size }})</a>
 {% endfor %}
+</div>
 
 {% for category in site.categories %}
 <h2><a name="{{ category[0] }}">{{ category[0] }}</a></h2>
