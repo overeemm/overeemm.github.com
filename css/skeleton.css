@@ -266,13 +266,13 @@ h1.siteheader { float: left; width: 800px; margin-top: 40px; }
 
 div.contact { width: 100px; text-align: right; float: right; margin-top: 70px; }
 a.icons { width: 16px; height: 16px; display: inline-block;
-             background-image: url("/Images/blog.png"); }
+             background-image: url("/images/blog.png"); }
 a.twitter { background-position: -16px 0px }
 a.rss { background-position: 0px 0px }
 a.plus { background-position: 0px -16px }
 a.linkedin { background-position: -16px -16px }
 
-p.about { background-image: url("/Images/blog.png");
+p.about { background-image: url("/images/blog.png");
           background-position: 0px -32px;
           height: 68px; margin-bottom: 0px; }
 span.postinfo { background-color:#efefef;padding:4px; }
