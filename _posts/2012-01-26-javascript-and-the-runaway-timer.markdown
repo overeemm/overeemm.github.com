@@ -11,11 +11,11 @@ or this one?
 
 ![Chrome message](/images/runaway_chrome.png)
 
-that is [the runaway timer][1] telling you that something is running out of control. It is the thing that keeps your browser from crashing or not responding because of a long running script. JavaScript in browsers is executed in a single thread. But, any DOM manipulation or event handling is also done on this single thread (yes I'm ignoring [web workers][2] in this post. When your script runs for seconds, no other thing can be done thus making your browser unresponsive. Clicks on buttons or hyperlinks will not be executed, hovers or other effects will do nothing. You should be timing your JavaScript code and split everything that takes more than 100 ms. Why 100 ms? The different runaway timers have enforce limits of multiple seconds. [Usability research][3] however shows that humans find a User Interface responsive when it reacts within 100 ms.
+That is [the runaway timer][1] telling you that something is running out of control. It is the thing that keeps your browser from crashing or not responding because of a long running script. JavaScript in browsers is executed in a single thread. But, any DOM manipulation or event handling is also done on this single thread (yes I'm ignoring [web workers][2] in this post). When your script runs for seconds, no other thing can be done thus making your browser unresponsive. Clicks on buttons or hyperlinks will not be executed, hovers or other effects will do nothing. You should be timing your JavaScript code and split everything that takes more than 100 ms. Why 100 ms? The different runaway timers have enforce limits of multiple seconds. [Usability research][3] however shows that humans find a User Interface responsive when it reacts within 100 ms.
 
 I myself ran into problems with the runaway timer when implementing the Mandelbrot figure using JavaScript and the Canvas element. The basis of the mandelbrot figure is an algorithm that calculates a color for every pixel on the canvas. A nested for-loop that is, visiting every pixel and doing some calculation. With a 400 by 400 pixel canvas, I was already running into problems.
 
-    #!javascript
+    #js
     var paint = function () {
         for (var screenX = startpoint_x; screenX &lt; endpoint_x ; screenX++) {
             for (var screenY = startpoint_y; screenY &lt; endpoint_y ; screenY++) {
@@ -29,7 +29,7 @@ I myself ran into problems with the runaway timer when implementing the Mandelbr
 
 The solution was to split this up in parts that run within the 100 ms limit (actually I choose 50 ms blocks to stay on the safe side).
 
-    #!javascript
+    #js
     var paint = function () {
         paintPart(startpoint_x);
     };

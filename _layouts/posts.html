@@ -1,3 +1,23 @@
-<article>
-  {{ content }}
-</article>
+---
+layout: default
+---
+<h2 class="entry-title">
+  <a href="{{ page.url }}" title="{{ page.title }}" rel="bookmark">{{ page.title }}</a>
+</h2>
+<p>
+  <span>
+      Placed on 
+      {{ page.date | date: "%d %B %Y" }}
+      about 
+      {% for category in page.categories %}
+      <a href="/topic.html#{{ category }}" title="{{ category }}" rel="topic tag">{{ category }}</a>
+      {% endfor %}
+  </span>
+</p>
+<div>
+    {{ content }}
+</div>
+<p>
+  <span></span>
+  <span></span>
+</p>

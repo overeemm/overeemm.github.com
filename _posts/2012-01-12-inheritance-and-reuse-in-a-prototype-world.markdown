@@ -8,7 +8,7 @@ One of the things that I struggled with writing JavaScript, is the [prototype-ba
 The prototype way in JavaScript is simply shown in the following example.
 Let us first define a constructor:
 
-    #!javascript
+    #js
     function Vehicle() {
       this.speed = 10;
     }
@@ -17,7 +17,7 @@ Now you shouldn't think to much of this constructor. It is a normal function in 
 
 The next step is to define functions on the prototype object of this constructor:
 
-    #!javascript
+    #js
     Vehicle.prototype.setMaxSpeed = function (speed) {
       this.speed = speed;
     };
@@ -28,14 +28,14 @@ The next step is to define functions on the prototype object of this constructor
     
 When we construct a new object, we can use the constructor to create an instance:
 
-    #!javascript
+    #js
     var myVehicle = new Vehicle();
     var isVehicle = myVehicle instanceof Vehicle; 
     // isVehicle is true
     
 The constructor makes sure that the new object is based on the prototype. This makes all defined functions available in the prototype chain. There are two advantages of this approach: we can inherit from this object, and we can use the __instanceof__ operator.
 
-    #!javascript
+    #js
     function Car() {
     }
     Car.prototype = new Vehicle();
@@ -47,7 +47,7 @@ Now we have an instance that is more specific then our Vehicle object, but can b
 
 There are other approaches possible to share code between objects. One of them is object augmentation. Because we can alter the JavaScript objects at any moment, we can augment objects with functionality.
 
-    #!javascript
+    #js
     function makeVehicle(o) {
         var speed = 10;
         o.maxSpeed = function() {
@@ -74,9 +74,13 @@ The prototype approach can also be used without constructors and the __new__ key
 Douglas Crockford has some nice articles ([this][4] and [this][5]) about inheritance and reuse in JavaScript. Because objects in JavaScript are soft and can be changed at any moment, he hardly sees use for the Classical Inheritance approach.
 Peter Michaux also [writes][8] about the augmentation approach, seeing the Decorator Pattern in it.
 
-Another discussion raised by looking at the [SOLID principles][6] is the usage of inheritance. Most of the time, inheritance is used for method overloading and polymorphic methods. The Liskov Substitution Principle states that __Subtypes must be substitutable for their base types.__ But JavaScript is not statically typed. This gives us the freedom to do more dynamic typing. Instead of looking at inheritance, we can look at behavior. By checking if certain functions are present we can be much more flexible in the range of objects that we can act on.
+Another discussion raised by looking at the [SOLID principles][6] is the usage of inheritance. Most of the time, inheritance is used for method overloading and polymorphic methods. The Liskov Substitution Principle states that 
 
-    #!javascript
+>Subtypes must be substitutable for their base types.
+
+But JavaScript is not statically typed. This gives us the freedom to do more dynamic typing. Instead of looking at inheritance, we can look at behavior. By checking if certain functions are present we can be much more flexible in the range of objects that we can act on.
+
+    #js
     function move(vehicle){
         if(!vehicle instanceof Vehicle)
             throw Error('not a vehicle');
@@ -89,7 +93,7 @@ Another discussion raised by looking at the [SOLID principles][6] is the usage o
         // ...
     }
 
-The moveDynamic function shows that we can move any object that has a move function. The move function only works on instances of our constructor function. The last fits the dynamic model and gives more flexibility.
+The __moveDynamic__ function shows that we can move any object that has a move function. The move function only works on instances of our constructor function. The last fits the dynamic model and gives more flexibility.
 
 [9]: http://stackoverflow.com/questions/2271166/when-should-you-use-prototype-during-object-augmentation-in-javascript]
 [1]: http://en.wikipedia.org/wiki/Prototype-based_programming

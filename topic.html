@@ -1,0 +1,20 @@
+---
+layout: default
+title: Posts by topic
+---
+
+{% for category in site.categories %}
+<a href="#{{ category[0] }}">{{ category[0] }} ({{ category | last | size }})</a>
+{% endfor %}
+
+{% for category in site.categories %}
+<h2><a name="{{ category[0] }}">{{ category[0] }}</a></h2>
+<ul>
+    {% for post in category[1] %}
+    <li>
+        <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
+        <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}
