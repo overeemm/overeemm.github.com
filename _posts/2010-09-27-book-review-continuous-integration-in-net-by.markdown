@@ -1,9 +1,11 @@
 ---
 layout: posts
-title: bookreview Continuous Integration in .NET by Marcin Kawalerowicz and Craig Berntson
+title: bookreview - Continuous Integration in .NET by Marcin Kawalerowicz and Craig Berntson
 categories: [reading, bookreview]
 ---
-Disclaimer: I responded to a tweet of Manning (http://www.twitter.com/manningbooks) and received a free copy of the e-book (Book Review: Continuous Integration in .NET by Marcin Kawalerowicz and Craig Berntson, http://www.manning.com/kawalerowicz/) to review it. I reviewed chapter 1 to 11 released to the MEAP.
+_Disclaimer: I responded to a tweet of Manning ([http://www.twitter.com/manningbooks][1]) and received a free copy of the e-book to review it. I reviewed chapter 1 to 11 released to the MEAP._
+
+__[Continuous Integration in .NET][2]__ by _Marcin Kawalerowicz and Craig Berntson_
  
 A bit about my background: I am a .NET developer for almost 5 years (3 of them full time). I am familiar with Visual Studio 2003 up to 2010, TFS 2005 and 2008, SVN and SourceSafe. I am very interested in using the right tools to speed up development and increase software quality.
  
@@ -19,3 +21,5 @@ A piece of information that I missed is the fact that most of the readers probab
  
 To summarize this review: I would recommend this book to any one who is starting fresh on the CI process. It is a very good starting point with practical guides on the implementation of CI. For people already familiar with CI and using it to some extend, the book can be a next step. Experienced developers familiar with CI and the different steps will probably find little new information in this book.
 
+[1]: http://www.twitter.com/manningbooks
+[2]: http://www.manning.com/kawalerowicz/
