@@ -13,13 +13,13 @@ Then during my first full-time job, the rise of [AJAX][2] happened. Microsoft ad
 
 And then, slowly it all evolved from sprinkling extra's into an HTML environment to full web applications build in JavaScript. Great examples are of course gmail, google docs and [Cloud 9 IDE][3]. JavaScript has grown into a serious programming language, that people should know and care about. With [Node.js][4] it even became possible to write your web application's server-side in JavaScript. Microsoft is enabling you to use it for desktop applications on [Windows 8][5].
 
-Some saw this evolution, thought about it and stated bold things:
+Some saw this evolution, thought about it and stated bold things ( _Yes, it was written in 2007, I know that I'm late to the game._ ):
 
-&gt; Any application that can be written in JavaScript, will eventually be written in JavaScript. ([Atwood's Law][9]. _Yes, it was written in 2007, I know that I'm late to the game..._)
+> Any application that can be written in JavaScript, will eventually be written in JavaScript. ([Atwood's Law][9]). 
 
 and
 
-&gt; JavaScript is an assembly language. The JavaScript + HTML generate is like a .NET assembly. The browser can execute it, but no human should really care what&rsquo;s there.([Erik Meijer on hanselman.com][10])
+> JavaScript is an assembly language. The JavaScript + HTML generate is like a .NET assembly. The browser can execute it, but no human should really care what&rsquo;s there.([Erik Meijer on hanselman.com][10])
 
 Atwood's Law is getting confirmed every day: real life web applications and games are written in JavaScript, not only for fun! Hanselman's statement is seen in things like the Google Web Toolkit and the Cappuccino framework. But also in ClojureScript and CoffeeScript. They all try to lift some of the problems in JavaScript by using other languages or creating new languages that compile into JavaScript.
 

@@ -275,3 +275,4 @@ a.linkedin { background-position: -16px -16px }
 p.about { background-image: url("/Images/blog.png");
           background-position: 0px -32px;
           height: 68px; margin-bottom: 0px; }
+span.postinfo { background-color:#efefef;padding:4px; }

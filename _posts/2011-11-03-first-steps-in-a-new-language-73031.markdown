@@ -32,4 +32,4 @@ So far so good. I like the language, but I do realize that these are just script
 
 How do you learn a new language?
 
-[1]: https://github.com/overeemm/rubyscripts
+[1]: https://github.com/overeemm/LanguageExperiments/tree/master/ruby

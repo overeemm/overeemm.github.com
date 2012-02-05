@@ -8,10 +8,8 @@ title: Michiel Overeem's blog
       <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
     </h2>
     <p>
-      <span>
-          Placed on 
-          {{ post.date | date: "%d %B %Y" }}
-          about 
+      <span class="postinfo">
+          Placed on {{ post.date | date: "%d %B %Y" }}, about 
           {% for category in post.categories %}
           <a href="/topic.html#{{ category }}" title="{{ category }}" rel="topic tag">{{ category }}</a>
           {% endfor %}

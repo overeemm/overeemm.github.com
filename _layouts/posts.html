@@ -5,10 +5,8 @@ layout: default
   <a href="{{ page.url }}" title="{{ page.title }}" rel="bookmark">{{ page.title }}</a>
 </h2>
 <p>
-  <span>
-      Placed on 
-      {{ page.date | date: "%d %B %Y" }}
-      about 
+  <span class="postinfo">
+      Placed on {{ page.date | date: "%d %B %Y" }}, about 
       {% for category in page.categories %}
       <a href="/topic.html#{{ category }}" title="{{ category }}" rel="topic tag">{{ category }}</a>
       {% endfor %}

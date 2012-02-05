@@ -13,7 +13,7 @@ But let me first explain two differences between JavaScript and traditional obje
 
 JavaScript only knows two scopes: the global scope and the function scope. This is different then for example C#. In C# block structures also start a new scope. So when you use a conditional or a loop structure, you know that you enter a new scope. This gives advantages in reuse variable names, but it also means that the garbage collector can free up memory when your done. The next example shows how this works in C#.
 
-    #!java
+    #java
     if(condition) {
         int i = 9 + 8;
         // do something with i
@@ -22,7 +22,7 @@ JavaScript only knows two scopes: the global scope and the function scope. This 
   
 If we would try the same in JavaScript, it would lead to different results.
 
-    #!javascript
+    #js
     if(condition) {
         var i = 9 + 8; 
         // do something with i
@@ -44,7 +44,7 @@ These two key differences between JavaScript and other object-oriented languages
 
 The first thing that I choose to do is adding namespaces to my code. Namespaces are used to create unique names within a certain naming scope. C# has them, and so does XML. Unfortunately, JavaScript doesn't know namespaces. But you can still simulate them by using object properties.
 
-    #!javascript
+    #js
     // create the first level
     var overeemm = window.overeemm || {}; 
     // create a subnamespace
@@ -61,7 +61,7 @@ We want to prevent all of our internal implementation details to leak out of our
 
 A [closure][3] is a function stored together with his environment (the variable bindings). When you execute this function, it has access to the variable bindings from the stored environment. It is said that the function is closed over the free variables. Because the function keeps access to all those variables, it is possible to create an hidden environment. This hidden environment is only accessible by the functions defined in this environment. 
 
-    #!javascript
+    #js
     var f, g;
     function doSomething(x, y) {
         var z = x + y;
@@ -75,7 +75,7 @@ After calling **doSomething** we can use the functions **f** and **g**. But they
 
 If we change the code snippet a little bit, we can create an object with his own private scope.
             
-    #!javascript
+    #js
     function createObject(x, y) {
         var z = x + y;
         return {
@@ -88,14 +88,14 @@ If we change the code snippet a little bit, we can create an object with his own
 
 With this technique we actually achieved two things:
 
-* we created an object **o** with a private state.
-* we did not pollute the global namespace with **f** and **g**, but only with **o**.
++ we created an object **o** with a private state.
++ we did not pollute the global namespace with **f** and **g**, but only with **o**.
 
 ### Singletons through self executing functions
 
 But what if we have a library with utilities. Or we want to create a singleton object? We can use the same technique, but place it in a different context.
 
-    #!javascript
+    #js
     var singleton = (function(x, y) {
         var z = x + y;
         return {
@@ -115,6 +115,7 @@ After a twitter discussion I wanted to revisite the singleton pattern a bit. One
 
 On stackoverflow [a nice example][7] is given. The principle is that you redefine the creation function and let it return the same instance. I thought it was a creative solution, and again I am amazed by the things you can do :-)
 
+    #js
     function singleton() {
       var instance = (function() {
         var privateVar;
