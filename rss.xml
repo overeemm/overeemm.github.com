@@ -13,7 +13,7 @@ layout: nil
     
     {% for post in site.posts limit:50 %}
     <item>
-	    <title>{{ post.title }}</title>
+	    <title>{{ post.title | xml_escape }}</title>
 	    <link href="http://blog.movereem.nl{{ post.url }}"/>
         <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
  	    <guid>http://blog.movereem.nl{{ post.id }}</guid>
