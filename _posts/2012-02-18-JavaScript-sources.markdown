@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Javascript sources, a summary
-categories: [JavaScript]
+categories: [javascript]
 date: 2012-02-18 20:00:00 
 ---
 I decided to summarize some JavaScript sources that I use, have used and want to share with others. This is by no means complete, but it might serve as a good starting point. Please, send my anything that I have missed :-)
