@@ -56,3 +56,5 @@
 	    font-weight: normal;
 	    font-style: normal; }
 */
+
+div.content li { margin-bottom: 0px; margin-left: 10px; }

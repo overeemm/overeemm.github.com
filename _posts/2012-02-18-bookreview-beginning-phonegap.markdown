@@ -2,6 +2,7 @@
 layout: posts
 title: bookreview - Beginning PhoneGap
 categories: [reading, bookreview, phonegap]
+date: 2012-02-18 16:00:00
 ---
 __Beginning PhoneGap__ by _Thomas Myer_
 
