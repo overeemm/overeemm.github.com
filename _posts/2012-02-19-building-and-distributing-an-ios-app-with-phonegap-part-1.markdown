@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Building and distributing an iOS app with PhoneGap - part 1.markdown
+title: Building and distributing an iOS app with PhoneGap - part 1
 categories: [javascript, html5, ios, phonegap]
 ---
 I've started working on an iOS app. Finally. The goals for this app are multiple. First of all, I wanted to work with PhoneGap, to see what the platform looked like. Second, I found a nice case for an app that I could build and put into production. I try to write up the experience and other stuff that I encounter. This first blog post marks some sources that I found to be useful.
