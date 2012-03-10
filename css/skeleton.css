@@ -257,12 +257,12 @@ div.footer span, div.footer div {
     display: inline-block; margin-left: 10px; margin-right: 10px; 
     line-height: 30px; vertical-align: top;
 }
-span.previous, span.next { width: 330px; margin: 0px; padding: 0px; display:inline-block;}
+span.previous, span.next { width: 50%; margin: 0px; padding: 0px; display:inline-block;}
 span.previous { text-align: left; }
 span.next { text-align: right; }
 span.topics { display: block; margin-left: 154px;}
 
-h1.siteheader { float: left; width: 800px; margin-top: 40px; }
+h1.siteheader { float: left; width: 100%; margin-top: 40px; }
 
 div.contact { position: absolute; right: 10px; top: 70px; width: 100px; text-align: right; }
 a.icons { width: 16px; height: 16px; display: inline-block;
