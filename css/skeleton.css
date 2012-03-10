@@ -257,7 +257,7 @@ div.footer span, div.footer div {
     display: inline-block; margin-left: 10px; margin-right: 10px; 
     line-height: 30px; vertical-align: top;
 }
-span.previous, span.next { width: 50%; margin: 0px; padding: 0px; display:inline-block;}
+span.previous, span.next { width: 45%; margin: 0px; padding: 0px; display:inline-block;}
 span.previous { text-align: left; }
 span.next { text-align: right; }
 span.topics { display: block; margin-left: 154px;}
