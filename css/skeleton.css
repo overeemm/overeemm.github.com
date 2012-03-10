@@ -105,6 +105,9 @@
         .container .fifteen.columns                 { width: 700px; }
         .container .sixteen.columns                 { width: 748px; }
 
+    .container .two-ninth.column                { width: 222px; }
+    .container .seven-ninth.column              { width: 506px; }
+
         .container .one-third.column                { width: 236px; }
         .container .two-thirds.column               { width: 492px; }
 
@@ -155,7 +158,12 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
+        
+    .container .two-ninth.column,
+    .container .seven-ninth.column,
         .container .two-thirds.column  { width: 300px; }
+
+
 
         /* Offsets */
         .container .offset-by-one,
@@ -205,6 +213,9 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
+        
+    .container .two-ninth.column,
+    .container .seven-ninth.column,
         .container .two-thirds.column { width: 420px; }
     }
 
