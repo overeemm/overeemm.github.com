@@ -54,7 +54,10 @@ My blog on iPhone and iPad:
 ![blog on iPhone](/images/blog-iphone.png)
 
 ![blog on iPad](/images/blog-ipad.png)
+
+Any more tips on CSS3, mobile web and responsive design? Let me know on [twitter][4]!
     
 [1]: http://labs.adobe.com/technologies/shadow/
 [2]: http://en.wikipedia.org/wiki/Responsive_Web_Design
 [3]: http://www.getskeleton.com/
+[4]: http://www.twitter.com/michielovereem/
