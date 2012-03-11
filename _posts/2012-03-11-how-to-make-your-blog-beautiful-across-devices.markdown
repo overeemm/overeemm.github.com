@@ -9,7 +9,8 @@ The tool consists of a server component, installed on your development machine,
 a Google Chrome plugin and client apps (both iOs and Android). 
 But before I tell you my experience, watch this demo video:
 
-<iframe title="AdobeTV Video Player" width="515" height="296" src="http://tv.adobe.com/embed/877/12009/" frameborder="0" allowfullscreen scrolling="no"></iframe> 
+<iframe title="AdobeTV Video Player" width="515" height="296" src="http://tv.adobe.com/embed/877/12009/" frameborder="0" allowfullscreen="allowfullscreen" scrolling="no">
+</iframe> 
 
 Pretty amazing, don't you think? So I installed it to preview my blog. 
 The connection was not without problems, but I managed to get it working on my iPhone and iPad. 
