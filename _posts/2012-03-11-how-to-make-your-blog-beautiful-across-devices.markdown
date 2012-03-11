@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Developing, previewing and debugging on mobile devices: how to make your blog beautiful across devices
+title: Developing, previewing and debugging on mobile devices - how to make your blog beautiful across devices
 categories: [adobe-shadow, css3, responsive-design, mobile-web]
 ---
 This week I spotted [Adobe Shadow][1]: a tool for developing, 
