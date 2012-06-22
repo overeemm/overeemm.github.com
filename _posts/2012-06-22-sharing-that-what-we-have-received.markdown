@@ -17,6 +17,8 @@ But in the book [The hole in our Gospel][1], Rich Stearns makes the case for usi
 and giving them a platform to work on their own poverty. Yes, we are talking about microfinance here.
 So that is what I have done. I've gone over to [kiva][2] and lend some money to people that have far less than me.
 
+![Kiva](/images/kiva.png)
+
 Now, I normally blog about tech stuff and software development. The whole microfinance thing has got me thinking: why are we spending money on [kickstarter][3] stuff that are run by people that have access to far more resources than those in third world countries? Would it not be cool if we as tech people could help fellow tech people all over the world to use their talents and fight poverty?
 
 
