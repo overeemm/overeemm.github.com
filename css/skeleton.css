@@ -272,7 +272,7 @@
 span.date { display: inline-block; width: 150px; }
 #twitter_update_list li { padding: 2px; list-style-type: none; }
 #twitter_update_list li > a { display: block; text-decoration: none;}
-#twitter_update_list { border: solid 0px #000; background: #c1c1c1; }
+#twitter_update_list { border: solid 0px #000; background: #ddd; }
 
 div.footer { margin-top: 10px; }
 div.footer span, div.footer div { 
