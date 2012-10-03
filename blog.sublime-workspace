@@ -7,6 +7,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/skeleton.css",
+			"settings":
+			{
+				"buffer_size": 11979,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,6 +48,9 @@
 	},
 	"file_history":
 	[
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-02-18-JavaScript-sources.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-02-19-building-and-distributing-an-ios-app-with-phonegap-part-1.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-06-22-sharing-that-what-we-have-received.markdown",
 		"/Users/overeem/Dropbox/DeReddingsark/emailadressen.txt",
 		"/Users/overeem/Dropbox/Public/voormekaar/werkenbij.html",
 		"/Users/overeem/Dropbox/Public/voormekaar/onssteunen.html",
@@ -85,6 +104,62 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/skeleton.css",
+					"settings":
+					{
+						"buffer_size": 11979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10835,
+								10835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3844.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -144,6 +219,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 312.0,
 	"status_bar_visible": true
 }

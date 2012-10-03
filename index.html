@@ -4,7 +4,7 @@ title: Michiel Overeem's blog
 ---
 
 {% for post in paginator.posts %}
-    <h2 class="entry-title">
+    <h2 class="index entry-title">
       <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
     </h2>
     <p>
@@ -15,17 +15,17 @@ title: Michiel Overeem's blog
           {% endfor %}
       </span>
     </p>
-    <div>
+    <!--<div>
       {{ post.content }}
     </div>
-    <hr />
+    <hr />-->
 {% endfor %}
 
 <div class="pagination">
   <span class="previous">
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-      <a href="/blog.html" title="Previous Page">&laquo; Previous</a>
+      <a href="/" title="Previous Page">&laquo; Previous</a>
       {% else %}
       <a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
       {% endif %}

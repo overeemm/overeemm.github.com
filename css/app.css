@@ -1,0 +1,40 @@
+span.date { display: inline-block; width: 150px; }
+#twitter_update_list li { padding: 2px; list-style-type: none; }
+#twitter_update_list li > a { display: block; text-decoration: none;}
+#twitter_update_list { border: solid 0px #000; background: #ddd; }
+
+div.footer { margin-top: 10px; }
+div.footer span, div.footer div { 
+    display: inline-block; margin-left: 10px; margin-right: 10px; 
+    line-height: 30px; vertical-align: top;
+}
+span.previous, span.next { width: 45%; margin: 0px; padding: 0px; display:inline-block;}
+span.previous { text-align: left; }
+span.next { text-align: right; }
+span.topics { display: block; margin-left: 154px;}
+
+h1.siteheader { float: left; width: 100%; margin-top: 40px; color: #000;}
+h1.siteheader a, h1.siteheader a:hover, h1.siteheader a:visited, h1.siteheader a:active { color: #000; }
+
+div.contact { position: absolute; right: 10px; top: 70px; width: 100px; text-align: right; }
+a.icons { width: 16px; height: 16px; display: inline-block;
+             background-image: url("/images/blog.png"); }
+a.twitter { background-position: -16px 0px }
+a.rss { background-position: 0px 0px }
+a.plus { background-position: 0px -16px }
+a.linkedin { background-position: -16px -16px }
+
+img.avatar { float: right; }
+span.postinfo { background-color:#efefef;padding:4px; }
+div.topiclist a { font-size: 14px; margin-left: 2px; margin-right: 2px; }
+
+div.sidebar { background-color: #ccc;}
+
+a, a:visited, a:active, a:hover { color: #2285A3; }
+body { background-color: #efefef;}
+
+hr { border: solid 0px #aaa; border-top-width: 1px;}
+
+div.share p { float: left; vertical-align: middle; }
+
+h2.index.entry-title { font-size: 20px;margin-bottom: 3px;}
