@@ -14,7 +14,7 @@ span.next { text-align: right; }
 span.topics { display: block; margin-left: 154px;}
 
 h1.siteheader { float: left; width: 100%; margin-top: 40px; color: #000;}
-h1.siteheader a, h1.siteheader a:hover, h1.siteheader a:visited, h1.siteheader a:active { color: #000; }
+
 
 div.contact { position: absolute; right: 10px; top: 70px; width: 100px; text-align: right; }
 a.icons { width: 16px; height: 16px; display: inline-block;
