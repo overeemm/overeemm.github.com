@@ -7,22 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1118,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/skeleton.css",
-			"settings":
-			{
-				"buffer_size": 11979,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -48,6 +32,19 @@
 	},
 	"file_history":
 	[
+		"/Users/overeem/Documents/Code/portfolio.page/index.html",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-10-04-fall-2012-update-on-projects.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/css/app.css",
+		"/Users/overeem/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/overeem/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_layouts/default.html",
+		"/Users/overeem/Documents/Code/overeemm.github.com/index.html",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_drafts/sept-2012-update-on-projects.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_layouts/posts.html",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_config.yml",
+		"/Users/overeem/Documents/Code/overeemm.github.com/CNAME",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_site/run.sh",
+		"/Users/overeem/Documents/Code/overeemm.github.com/css/skeleton.css",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-02-18-JavaScript-sources.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-02-19-building-and-distributing-an-ios-app-with-phonegap-part-1.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-06-22-sharing-that-what-we-have-received.markdown",
@@ -61,8 +58,7 @@
 		"/Users/overeem/Dropbox/Public/voormekaar/dagbesteding.html",
 		"/Users/overeem/Dropbox/Public/voormekaar/overons.html",
 		"/Users/overeem/Dropbox/Public/voormekaar/index.html",
-		"/Users/overeem/Dropbox/Public/voormekaar/voormekaar.sublime-project",
-		"/Users/overeem/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+		"/Users/overeem/Dropbox/Public/voormekaar/voormekaar.sublime-project"
 	],
 	"find":
 	{
@@ -104,62 +100,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 1118,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/skeleton.css",
-					"settings":
-					{
-						"buffer_size": 11979,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10835,
-								10835
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3844.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

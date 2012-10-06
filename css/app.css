@@ -1,4 +1,4 @@
-span.date { display: inline-block; width: 150px; }
+
 #twitter_update_list li { padding: 2px; list-style-type: none; }
 #twitter_update_list li > a { display: block; text-decoration: none;}
 #twitter_update_list { border: solid 0px #000; background: #ddd; }
@@ -13,10 +13,11 @@ span.previous { text-align: left; }
 span.next { text-align: right; }
 span.topics { display: block; margin-left: 154px;}
 
-h1.siteheader { float: left; width: 100%; margin-top: 40px; color: #000;}
+div.header { border-bottom: solid 1px #aaa; margin-bottom: 20px; background-color: #2285A3;}
+h1.siteheader { float: left; width: 100%; margin: 10px; color: #efefef; font-size: 30px;}
+h1.siteheader a, h1.siteheader a:visited, h1.siteheader a:active, h1.siteheader a:hover { color: #efefef; }
+div.contact { position: absolute; right: 10px; top: 10px; width: 100px; text-align: right; }
 
-
-div.contact { position: absolute; right: 10px; top: 70px; width: 100px; text-align: right; }
 a.icons { width: 16px; height: 16px; display: inline-block;
              background-image: url("/images/blog.png"); }
 a.twitter { background-position: -16px 0px }
@@ -25,8 +26,12 @@ a.plus { background-position: 0px -16px }
 a.linkedin { background-position: -16px -16px }
 
 img.avatar { float: right; }
-span.postinfo { background-color:#efefef;padding:4px; }
+h2 { margin-bottom: 0px;}
+span.postinfo { background-color:#efefef;padding: 0px 0px 4px 20px; font-size: 10pt; font-style: italic; }
 div.topiclist a { font-size: 14px; margin-left: 2px; margin-right: 2px; }
+
+span.date { display: inline-block; width: 150px; }
+ul.postlist a { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 500px; display:inline-block;}
 
 div.sidebar { background-color: #ccc;}
 
