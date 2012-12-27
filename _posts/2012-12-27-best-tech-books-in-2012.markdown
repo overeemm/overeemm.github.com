@@ -42,7 +42,7 @@ Donald Norman is well known for his books on design. And this book is no excepti
 
 Last but not least is a dutch book about agile software development. At my previous job I was a scrum master and implemented agile with a colleague of mine. Agile stuff is still very interesting, but often it is used more like a religion then a useful way of developing software. Sander Hoogendoorn is very pragmatic in his thinking about agile, and therefore this book is highly recommended! A German translation is already finished, and an English version is planned. Visit [the website][11] for more information!
 
-So far for the books that I have written. What is next? What will follow next year? ... I hope to continue diving into the world of JavaScript, HTML5 and front-end architecture and design. Maybe some UX. And for books? The list keeps growing, but on it are 
+So far for the books that I have read. What is next? What will follow next year? ... I hope to continue diving into the world of JavaScript, HTML5 and front-end architecture and design. Maybe some UX. And for books? The list keeps growing, but on it are 
 
 + [Nicholas Zakas - Principles of Object-Oriented Programming in JavaScript][12]
 + [Frederick Brooks - The Design of Design][13]
