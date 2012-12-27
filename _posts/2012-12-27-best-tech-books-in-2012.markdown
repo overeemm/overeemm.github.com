@@ -52,6 +52,10 @@ So far for the books that I have read. What is next? What will follow next year?
 
 Which books should I add? Let me know on [twitter][17]!
 
+#### Suggested books
+
++ [Clojure Programming by Chas Emerick, Brian Carper, Christophe Grand][18] via [@borkdude][19]
+
 [1]: http://www.afas.nl/
 [2]: http://blog.movereem.nl/bookreview-beginning-phonegap/
 [3]: http://www.codinghorror.com/blog/2007/10/do-not-buy-this-book.html
@@ -69,3 +73,5 @@ Which books should I add? Let me know on [twitter][17]!
 [15]: http://www.manning.com/resig/
 [16]: http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073/ref=sr_1_1?ie=UTF8&qid=1356613307&sr=8-1&keywords=the+clean+coder
 [17]: http://www.twitter.com/michielovereem
+[18]: http://shop.oreilly.com/product/0636920013754.do
+[19]: http://www.twitter.com/borkdude
