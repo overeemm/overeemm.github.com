@@ -8,42 +8,29 @@
 	"buffers":
 	[
 		{
-			"file": "topic.html",
+			"file": "_posts/2012-12-27-best-tech-books-in-2012.markdown",
 			"settings":
 			{
-				"buffer_size": 582,
+				"buffer_size": 5653,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "date.html",
+			"contents": "---\nlayout: posts\ntitle: Client side storage in HTML5\ncategories: [html5, javascript]\n---\n\nWeb applications are \n\n> sessionStorage.getItem(\"itemKey\");\n> sessionStorage.setItem(\"itemKey\", \"itemValue\");\n\n[1]: https://developer.mozilla.org/en-US/docs/DOM/Storage ",
+			"file": "_posts/2013-01-05.markdown",
+			"file_size": 5653,
+			"file_write_time": 1356782915000000,
 			"settings":
 			{
-				"buffer_size": 305,
+				"buffer_size": 260,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_layouts/default.html",
+			"file": "_posts/2012-02-18-JavaScript-sources.markdown",
 			"settings":
 			{
-				"buffer_size": 7448,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 79,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2011-05-15-bookreview-javascript-the-definitive-guide-6t.markdown",
-			"settings":
-			{
-				"buffer_size": 1762,
+				"buffer_size": 2957,
 				"line_ending": "Unix"
 			}
 		}
@@ -72,6 +59,13 @@
 	},
 	"file_history":
 	[
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-12-28-breadcrumbs-in-the-browser.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-12-27-best-tech-books-in-2012.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2011-05-15-bookreview-javascript-the-definitive-guide-6t.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_config.yml",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_layouts/default.html",
+		"/Users/overeem/Documents/Code/overeemm.github.com/date.html",
+		"/Users/overeem/Documents/Code/overeemm.github.com/topic.html",
 		"/Users/overeem/Dropbox/DeReddingsark/localhost.sql",
 		"/Users/overeem/Documents/Code/overeemm.github.com/css/app.css",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-10-06-the-rise-of-css-frameworks.markdown",
@@ -79,11 +73,9 @@
 		"/Users/overeem/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/overeem/Documents/Code/portfolio.page/index.html",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-10-04-fall-2012-update-on-projects.markdown",
-		"/Users/overeem/Documents/Code/overeemm.github.com/_layouts/default.html",
 		"/Users/overeem/Documents/Code/overeemm.github.com/index.html",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_drafts/sept-2012-update-on-projects.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_layouts/posts.html",
-		"/Users/overeem/Documents/Code/overeemm.github.com/_config.yml",
 		"/Users/overeem/Documents/Code/overeemm.github.com/CNAME",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_site/run.sh",
 		"/Users/overeem/Documents/Code/overeemm.github.com/css/skeleton.css",
@@ -140,53 +132,54 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "topic.html",
+					"file": "_posts/2012-12-27-best-tech-books-in-2012.markdown",
 					"settings":
 					{
-						"buffer_size": 582,
+						"buffer_size": 5653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								328,
-								328
+								4386,
+								4386
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 816.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "date.html",
+					"file": "_posts/2013-01-05.markdown",
 					"settings":
 					{
-						"buffer_size": 305,
+						"buffer_size": 260,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64,
-								64
+								112,
+								112
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -196,64 +189,10 @@
 				},
 				{
 					"buffer": 2,
-					"file": "_layouts/default.html",
+					"file": "_posts/2012-02-18-JavaScript-sources.markdown",
 					"settings":
 					{
-						"buffer_size": 7448,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2728,
-								2728
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 760.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_config.yml",
-					"settings":
-					{
-						"buffer_size": 79,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								42,
-								42
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_posts/2011-05-15-bookreview-javascript-the-definitive-guide-6t.markdown",
-					"settings":
-					{
-						"buffer_size": 1762,
+						"buffer_size": 2957,
 						"regions":
 						{
 						},
