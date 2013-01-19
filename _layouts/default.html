@@ -63,6 +63,7 @@
 </head>
 <body>
 
+  <div class="row">
   
     <div class="twelve columns header">
       <h1 class="remove-bottom siteheader">
@@ -78,54 +79,36 @@
 
     </div>
 
+  </div>
+
   <div class="row">
 
-    <div class="nine columns content">
+    <div class="twelve columns content">
+      <ul class="menu">
+        <li><a title="View posts by date" href="/">home</a></li>
+        <li><a title="View posts by date" href="/date.html">by date</a></li>
+        <li><a title="View posts by topic" href="/topic.html">by topic</a></li>
+      </ul>
+    </div>
+
+    <div class="twelve columns content">
       {{ content }}
     </div>
 
-    <div class="three column sidebar">
-      <h3>About Michiel</h3>
-      <p class="about">
-        <img src="/images/apple-touch-icon.png" alt="Michiel Overeem" class="avatar"/>
-        Geek, software developer, books, JavaScript, .NET, the web, agile.
-      </p>
-
-      <h3>Archives</h3>
-      <p>
-        <ul>
-          <li><a title="View posts by date" href="/date.html">by date</a></li>
-          <li><a title="View posts by topic" href="/topic.html">by topic</a></li>
-        </ul>
-      </p>
-
-      <h3>Links</h3>
-      <p>
-        <ul>
-          <li><a title="Portfolio" href="http://movereem.nl/portfolio/">portfolio</a></li>
-        </ul>
-      </p>
-
-      <h3>Feedback</h3>
-      <p>
-        I have decided to not add comments to my blog. 
-        You are welcome to react on <a href="https://profiles.google.com/overeemm">google+</a>
-        or <a href="http://twitter.com/michielovereem">twitter</a>.
-      </p>
-
-      <h3>Disclaimer</h3>
-      <p>These are my opinions and experiments. The posts are "AS IS", no warranties.</p>
-    </div>
   </div>  
 
   <div class="row rowfooter">
     <div class="twelve columns footer">
       <hr />
     
-      <span class="copyright">&copy; Copyright 2012 Michiel Overeem</span>
-      <span class="hosted">Hosted on <a href="http://pages.github.com/">github pages</a></span>
-      <span class="build">Build with <a href="https://github.com/mojombo/jekyll/">Jekyll</a></span>
-      <span class="fork"><a href="https://github.com/overeemm/overeemm.github.com">Fork me</a></span>
+      <div id="profile">
+        <img src="/images/apple-touch-icon.png" alt="Michiel Overeem" class="avatar"/>
+        &copy; Michiel Overeem; Geek, software developer, books, JavaScript, .NET, the web, agile.
+      </div>
+
+      <p>These are my opinions and experiments. The posts are "AS IS", no warranties.
+        You are welcome to react on <a href="https://profiles.google.com/overeemm">google+</a>
+        or <a href="http://twitter.com/michielovereem">twitter</a>.</p>
 
       <div id="creativecommons">
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" title="Creative Commons License" src="/images/cc88x31.png"/></a>
@@ -150,10 +133,18 @@
                 </rdf:RDF>
             -->
       </div>
+
+      <p>
+        Hosted on <a href="http://pages.github.com/">github pages</a>,
+        build with <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+        You can <a href="https://github.com/overeemm/overeemm.github.com">fork me</a>.
+      </p>
+
+      
     </div>
   </div>
 
-  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
   <script src="/scripts/shCore.js" type="text/javascript"></script>
   <script src="/scripts/shAutoloader.js" type="text/javascript"></script>
 
