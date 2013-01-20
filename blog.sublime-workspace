@@ -3,34 +3,27 @@
 	{
 		"selected_items":
 		[
+			[
+				"list-",
+				"list-style-type"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "_posts/2012-12-27-best-tech-books-in-2012.markdown",
+			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 5653,
+				"buffer_size": 7122,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "---\nlayout: posts\ntitle: Client side storage in HTML5\ncategories: [html5, javascript]\n---\n\nWeb applications are \n\n> sessionStorage.getItem(\"itemKey\");\n> sessionStorage.setItem(\"itemKey\", \"itemValue\");\n\n[1]: https://developer.mozilla.org/en-US/docs/DOM/Storage ",
-			"file": "_posts/2013-01-05.markdown",
-			"file_size": 5653,
-			"file_write_time": 1356782915000000,
+			"file": "css/app.css",
 			"settings":
 			{
-				"buffer_size": 260,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2012-02-18-JavaScript-sources.markdown",
-			"settings":
-			{
-				"buffer_size": 2957,
+				"buffer_size": 2713,
 				"line_ending": "Unix"
 			}
 		}
@@ -38,11 +31,19 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 267.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -59,8 +60,11 @@
 	},
 	"file_history":
 	[
-		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-12-28-breadcrumbs-in-the-browser.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2013-01-16-javascript-and-the-flexibility-that-is-sometimes-needed.markdown",
+		"/Users/overeem/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-02-18-JavaScript-sources.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-12-27-best-tech-books-in-2012.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-12-28-breadcrumbs-in-the-browser.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2011-05-15-bookreview-javascript-the-definitive-guide-6t.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_config.yml",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_layouts/default.html",
@@ -79,7 +83,6 @@
 		"/Users/overeem/Documents/Code/overeemm.github.com/CNAME",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_site/run.sh",
 		"/Users/overeem/Documents/Code/overeemm.github.com/css/skeleton.css",
-		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-02-18-JavaScript-sources.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-02-19-building-and-distributing-an-ios-app-with-phonegap-part-1.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2012-06-22-sharing-that-what-we-have-received.markdown",
 		"/Users/overeem/Dropbox/DeReddingsark/emailadressen.txt",
@@ -137,75 +140,227 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2012-12-27-best-tech-books-in-2012.markdown",
+					"file": "_layouts/default.html",
 					"settings":
 					{
-						"buffer_size": 5653,
+						"buffer_size": 7122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4386,
-								4386
+								5963,
+								5963
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 816.0,
+						"translation.y": 1464.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_posts/2013-01-05.markdown",
+					"file": "css/app.css",
 					"settings":
 					{
-						"buffer_size": 260,
+						"buffer_size": 2713,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								112,
-								112
+								315,
+								315
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/2012-02-18-JavaScript-sources.markdown",
-					"settings":
-					{
-						"buffer_size": 2957,
-						"regions":
-						{
-						},
-						"selection":
-						[
+							"annotations":
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -222,7 +377,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
