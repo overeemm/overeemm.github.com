@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Side project: drawing signatures in HTML5
+title: Side project - drawing signatures in HTML5
 categories: [javascript, html5, projects]
 ---
 
