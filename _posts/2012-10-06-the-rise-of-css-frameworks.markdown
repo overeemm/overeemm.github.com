@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: The rise of CSS Frameworks and some thoughts on how to use them
-categories: [css,frameworks]
+categories: [css, frameworks]
 ---
 
 The advance of HTML5, CSS3 and responsive design has given rise to a whole new type of (open source) projects: [CSS frameworks][1]. The first time I saw these kind of projects I found it rather strange. I am used to frameworks in terms of reusable libraries giving some functionality. Like ASP.NET MVC, helping you serve content over HTTP. CSS however consists of rules and style definitions, there is no code, there is no functionality. These definitions can be reused of course, but it often becomes a pain to maintain large CSS files. The language itself does not have constructs to deal with reuse in a way like programming languages.
