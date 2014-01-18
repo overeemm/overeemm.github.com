@@ -3,13 +3,12 @@
 #twitter_update_list li > a { display: block; text-decoration: none;}
 #twitter_update_list { border: solid 0px #000; background: #ddd; }
 
-div.row { width: 600px; min-width: 600px; }
+div.row { width: 700px; min-width: 600px; }
 
 div.footer { margin-top: 10px; }
-div.footer p { margin-top: 10px; float: left; width: 300px; font-size: 13px; line-height: 1.2;}
-div.footer div { margin-top: 10px; clear: both; float: left; width: 200px; font-size: 13px; line-height: 1.2;}
-#profile img { float: left; margin: 5px;}
-
+div.footer p { margin-top: 10px; font-size: 13px; line-height: 1.2;}
+div.footer img { float: left; margin-right: 10px;} 
+div.footer div { float: right; margin-left: 10px;}
 
 span.previous, span.next { width: 45%; margin: 0px; padding: 0px; display:inline-block;}
 span.previous { text-align: left; }
@@ -50,6 +49,7 @@ ul.postlist a, ul.postlist a:visited, ul.postlist a:active {
   text-decoration: none;
 }
 
+pre { margin-bottom: 17px; }
 hr { border: solid 0px #aaa; border-top-width: 1px;}
 
 div.share p { float: left; vertical-align: middle; }

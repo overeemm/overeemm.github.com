@@ -101,14 +101,7 @@
     <div class="twelve columns footer">
       <hr />
     
-      <div id="profile">
-        <img src="/images/apple-touch-icon.png" alt="Michiel Overeem" class="avatar"/>
-        &copy; Michiel Overeem; Geek, software developer, books, JavaScript, .NET, the web, agile.
-      </div>
-
-      <p>These are my opinions and experiments. The posts are "AS IS", no warranties.
-        You are welcome to react on <a href="https://profiles.google.com/overeemm">google+</a>
-        or <a href="http://twitter.com/michielovereem">twitter</a>.</p>
+      <img src="/images/apple-touch-icon.png" alt="Michiel Overeem" class="avatar"/>
 
       <div id="creativecommons">
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" title="Creative Commons License" src="/images/cc88x31.png"/></a>
@@ -134,12 +127,15 @@
             -->
       </div>
 
-      <p>
+      <p id="profile">
+        &copy; Michiel Overeem; software developer, love the web. These are my opinions and experiments. 
+        The posts are "AS IS", no warranties.
+        You are welcome to react on <a href="https://profiles.google.com/overeemm">google+</a>
+        or <a href="http://twitter.com/michielovereem">twitter</a>. 
         Hosted on <a href="http://pages.github.com/">github pages</a>,
         build with <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
         You can <a href="https://github.com/overeemm/overeemm.github.com">fork me</a>.
       </p>
-
       
     </div>
   </div>
@@ -156,10 +152,11 @@
     if($preBlock.length === 1) {
       var lines = $codeBlock.text().split(/\r\n|\r|\n/);
       var firstLine = lines[0];
-      
-      // Something like #js
-      $preBlock.addClass("brush: "+firstLine.substring(1));
-      $preBlock.html(lines.slice(1).join("\n"));
+      if(firstLine.indexOf('#') === 0) {
+        // Something like #js
+        $preBlock.addClass("brush: "+firstLine.substring(1));
+        $preBlock.html(lines.slice(1).join("\n"));
+      }
     }
   });
 
