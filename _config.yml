@@ -2,3 +2,4 @@ title: Michiel Overeem's blog
 paginate: 50
 pygments: true
 permalink:   /:title
+markdown: redcarpet

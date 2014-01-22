@@ -1,1 +1,1 @@
-python -m SimpleHTTPServer 4104
+jekyll --watch serve

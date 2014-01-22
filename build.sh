@@ -1,1 +1,1 @@
-jekyll --pygments --safe
+jekyll build
