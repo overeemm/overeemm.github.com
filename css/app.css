@@ -1,3 +1,4 @@
+body { background-color: #eee;}
 
 #twitter_update_list li { padding: 2px; list-style-type: none; }
 #twitter_update_list li > a { display: block; text-decoration: none;}
@@ -21,7 +22,7 @@ span.topics { display: block; margin-left: 154px;}
 
 div.header { padding-bottom: 20px; margin-bottom: 20px; }
 h1.siteheader { float: left; width: auto; margin: 10px 0px; font-size: 30px;}
-h1.siteheader a, h1.siteheader a:visited, h1.siteheader a:active, h1.siteheader a:hover { color: #ccc; }
+h1.siteheader a, h1.siteheader a:visited, h1.siteheader a:active, h1.siteheader a:hover { color: #eee; }
 div.contact { float: right; margin: 20px 10px 0px 0px; width: 100px; text-align: right; }
 
 a.icons { width: 16px; height: 16px; display: inline-block;
@@ -37,15 +38,15 @@ ul.menu li:first-child:before { content: "";}
 
 img.avatar { float: right; }
 h2 { margin-bottom: 0px;}
-span.postinfo { background-color:#ccc; padding: 0px 0px 4px 20px; font-size: 8pt; font-style: italic; }
+span.postinfo { background-color:#eee; padding: 0px 0px 4px 20px; font-size: 8pt; font-style: italic; }
 div.topiclist a { font-size: 14px; margin-left: 2px; margin-right: 2px; overflow-x: scroll; white-space: nowrap; }
 
 span.date { display: inline-block; width: 150px; font-style: italic; /*font-family: Georgia; */}
 ul.postlist a { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 400px; display:inline-block;}
 ul.postlist li { list-style-type: none; }
 
-a, a:visited, a:active, a:hover { color: #333; text-decoration: underline; }
-body { background-color: #ccc;}
+a, a:visited, a:active, a:hover { color: #333; text-decoration: none; font-weight: bold; }
+
 blockquote, p, blockquote p { font-size: 15px; line-height: 2;}
 h1 a, h1 a:visited, h1 a:active,
 h2 a, h2 a:visited, h2 a:active,
