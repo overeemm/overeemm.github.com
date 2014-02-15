@@ -64,6 +64,25 @@ div.share p { float: left; vertical-align: middle; }
 h2.index.entry-title { font-size: 20px; margin-bottom: 3px;}
 /*h2.entry-title a { font-family: Georgia; }*/
 
+table.content {
+  width: 100%;
+  background-color: #eee;
+}
+
+table.content, table.content td, table.content th {
+  border-collapse: collapse;
+  border: solid 1px #000;
+  background-color: #eee;
+  padding: 3px 10px;
+  text-align: left;
+}
+
+table.content th {
+  color: #eee;
+  background-color: #000;
+}
+
+
 @media only screen and (max-width: 767px) {
   div.row { min-width: 0px; width: auto;}
   div.row div.twelve { width: auto; }
