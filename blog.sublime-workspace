@@ -12,18 +12,10 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2014-02-08-automating-javascript-testing-in-a-microsoft-environment.markdown",
+			"file": "_posts/2014-02-15-certified-rx-developer.markdown",
 			"settings":
 			{
-				"buffer_size": 9241,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2009-10-08-ebooks-uitlenen.markdown",
-			"settings":
-			{
-				"buffer_size": 4149,
+				"buffer_size": 8797,
 				"line_ending": "Unix"
 			}
 		},
@@ -31,7 +23,7 @@
 			"file": "css/app.css",
 			"settings":
 			{
-				"buffer_size": 2953,
+				"buffer_size": 3254,
 				"line_ending": "Unix"
 			}
 		}
@@ -68,12 +60,15 @@
 	},
 	"file_history":
 	[
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2014-02-13-certified-rx-developer.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/css/app.css",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2009-10-08-ebooks-uitlenen.markdown",
+		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2014-02-08-automating-javascript-testing-in-a-microsoft-environment.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_drafts/2014-02-08-automating-javascript-testing-in-a-microsoft-environment.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_drafts/automating-javascript-testing-in-a-microsoft-environment.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_config.yml",
 		"/Users/overeem/Documents/Code/overeemm.github.com/build.sh",
 		"/Users/overeem/Documents/Code/overeemm.github.com/run.sh",
-		"/Users/overeem/Documents/Code/overeemm.github.com/css/app.css",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2014-01-22-testing-if-the-eventloop-is-blocked.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2014-01-19-some-node-concepts-explained.markdown",
 		"/Users/overeem/Documents/Code/overeemm.github.com/_posts/2014-01-18-presenting-GrapNode.markdown",
@@ -173,18 +168,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2014-02-08-automating-javascript-testing-in-a-microsoft-environment.markdown",
+					"file": "_posts/2014-02-15-certified-rx-developer.markdown",
 					"settings":
 					{
-						"buffer_size": 9241,
+						"buffer_size": 8797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2919,
-								2919
+								8185,
+								8185
 							]
 						],
 						"settings":
@@ -278,143 +273,30 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.y": 1704.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_posts/2009-10-08-ebooks-uitlenen.markdown",
-					"settings":
-					{
-						"buffer_size": 4149,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								87,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "css/app.css",
 					"settings":
 					{
-						"buffer_size": 2953,
+						"buffer_size": 3254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2305,
-								2305
+								3037,
+								3037
 							]
 						],
 						"settings":
@@ -511,7 +393,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 205.0,
+						"translation.y": 624.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
