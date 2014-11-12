@@ -1,4 +1,4 @@
-body { background-color: #eee;}
+body { background-color: #fff;}
 
 #twitter_update_list li { padding: 2px; list-style-type: none; }
 #twitter_update_list li > a { display: block; text-decoration: none;}
@@ -38,7 +38,7 @@ ul.menu li:first-child:before { content: "";}
 
 img.avatar { float: right; }
 h2 { margin-bottom: 0px;}
-span.postinfo { background-color:#eee; padding: 0px 0px 4px 20px; font-size: 8pt; font-style: italic; }
+span.postinfo { padding: 0px 0px 4px 20px; font-size: 8pt; font-style: italic; }
 div.topiclist a { font-size: 14px; margin-left: 2px; margin-right: 2px; overflow-x: scroll; white-space: nowrap; }
 
 span.date { display: inline-block; width: 150px; font-style: italic; /*font-family: Georgia; */}
@@ -66,13 +66,11 @@ h2.index.entry-title { font-size: 20px; margin-bottom: 3px;}
 
 table.content {
   width: 100%;
-  background-color: #eee;
 }
 
 table.content, table.content td, table.content th {
   border-collapse: collapse;
   border: solid 1px #000;
-  background-color: #eee;
   padding: 3px 10px;
   text-align: left;
 }

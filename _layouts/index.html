@@ -63,7 +63,7 @@
 </head>
 <body>
 
-  <div class="container headersmall">
+  <div class="container header">
     <h1>
       <a href="/">{{ site.title }}</a>
     </h1>
@@ -74,31 +74,13 @@
       <a class="icons plus" title="Google+" href="https://profiles.google.com/overeemm"></a>
       <a class="icons linkedin" title="LinkedIn" href="http://nl.linkedin.com/in/movereem"></a>
     </div>
-  </div>
-
-  <div class="container">
-
-    <div class="twelve columns content">
-      <ul class="menu">
-        <li>Browse all posts</li>
-        <li><a title="View posts by date" href="/date.html">by date</a></li>
-        <li><a title="View posts by topic" href="/topic.html">by topic</a></li>
-      </ul>
-    </div>
-
-  </div>  
-
-  <div class="container">
-
-    <div class="content">
-      {{ content }}
-    </div>
 
   </div>
 
-  <div class="container footer">
+  <div class="container profile">
     
     <div class="content">
+
       <div class="right">
         <div id="creativecommons">
           <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" title="Creative Commons License" src="/images/cc88x31.png"/></a>
@@ -124,46 +106,39 @@
               -->
         </div>
       </div>
+
       <p id="profile">
-        &copy; Michiel Overeem. 
-        You are welcome to react on <a href="http://twitter.com/michielovereem">twitter</a>.
+        &copy; Michiel Overeem; Lead Software Architect at <a href="http://www.afas.nl/">AFAS</a>, loves the web. 
+        These are my opinions and experiments. The posts are "AS IS", no warranties. 
+        I also occasionally bog at <a href="http://dev.afas.nl/">dev.afas.nl</a>, both English and Dutch.
+        You are welcome to react on <a href="https://profiles.google.com/overeemm">google+</a>
+        or <a href="http://twitter.com/michielovereem">twitter</a>. 
+        Hosted on <a href="http://pages.github.com/">github pages</a>,
+        build with <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+        You can <a href="https://github.com/overeemm/overeemm.github.com">fork me</a>.
       </p>
-      
     </div>
   </div>
 
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
-  <script src="/scripts/shCore.js" type="text/javascript"></script>
-  <script src="/scripts/shAutoloader.js" type="text/javascript"></script>
+  <div class="container">
 
-  <script type="text/javascript">
+    <div class="twelve columns content">
+      <ul class="menu">
+        <li>Browse all posts</li>
+        <li><a title="View posts by date" href="/date.html">by date</a></li>
+        <li><a title="View posts by topic" href="/topic.html">by topic</a></li>
+      </ul>
+    </div>
 
-    $('code').each(function () {
-      var $codeBlock = $(this);
-      var $preBlock = $codeBlock.parent("pre");
-      if($preBlock.length === 1) {
-        var lines = $codeBlock.text().split(/\r\n|\r|\n/);
-        var firstLine = lines[0];
-        if(firstLine.indexOf('#') === 0) {
-          // Something like #js
-          $preBlock.addClass("brush: "+firstLine.substring(1));
-          $preBlock.html(lines.slice(1).join("\n"));
-        }
-      }
-    });
+  </div>  
 
-    SyntaxHighlighter.autoloader(
-      'js jscript javascript  /scripts/shBrushJScript.js',
-      'applescript            /scripts/shBrushAppleScript.js',
-      'c# c-sharp csharp      /scripts/shBrushCSharp.js',
-      'java                   /scripts/shBrushJava.js',
-      'xml xhtml xslt html    /scripts/shBrushXml.js',
-      'ruby rails ror rb      /scripts/shBrushRuby.js',
-      'css                    /scripts/shBrushCss.js'
-    );
+  <div class="container">
 
-    SyntaxHighlighter.all();
-  </script>
+    <div class="content">
+      {{ content }}
+    </div>
+
+  </div>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
-title: Michiel Overeem's blog
+title: Michiel Overeem
 paginate: 50
-pygments: true
+highlighter: pygments
 permalink:   /:title
 markdown: redcarpet
