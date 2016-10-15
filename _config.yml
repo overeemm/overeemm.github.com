@@ -1,5 +1,4 @@
 title: Michiel Overeem
-paginate: 50
 highlighter: pygments
 permalink:   /:title
 markdown: redcarpet

@@ -34,11 +34,7 @@
   <![endif]-->
 
   <link rel="shortcut icon" href="images/favicon.ico"/>
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
-
-  <link rel="me" type="text/html" href="http://profiles.google.com/overeemm?rel=me"/> 
+ 
   <link rel="me" type="text/html" href="http://twitter.com/michielovereem"/> 
   <link rel="me" type="text/html" href="http://nl.linkedin.com/in/movereem"/> 
   <link rel="me" type="text/html" href="http://feeds.feedburner.com/MichielOvereem"/>
@@ -63,7 +59,7 @@
 </head>
 <body>
 
-  <div class="container header">
+  <div class="container headersmall">
     <h1>
       <a href="/">{{ site.title }}</a>
     </h1>
@@ -71,7 +67,6 @@
     <div class="contact">
       <a class="icons rss" title="Atom feed" href="http://feeds.feedburner.com/MichielOvereem"></a>
       <a class="icons twitter" title="follow me on twitter" href="http://twitter.com/michielovereem"></a>
-      <a class="icons plus" title="Google+" href="https://profiles.google.com/overeemm"></a>
       <a class="icons linkedin" title="LinkedIn" href="http://nl.linkedin.com/in/movereem"></a>
     </div>
 
@@ -107,13 +102,23 @@
         </div>
       </div>
 
+      <img class="photo" src="/images/movereem.jpg" alt="photo of Michiel Overeem" />
       <p id="profile">
-        &copy; Michiel Overeem; Lead Software Architect at <a href="http://www.afas.nl/">AFAS</a>, loves the web. 
-        These are my opinions and experiments. The posts are "AS IS", no warranties. 
-        I also occasionally bog at <a href="http://dev.afas.nl/">dev.afas.nl</a>, both English and Dutch.
-        You are welcome to react on <a href="https://profiles.google.com/overeemm">google+</a>
-        or <a href="http://twitter.com/michielovereem">twitter</a>. 
-        Hosted on <a href="http://pages.github.com/">github pages</a>,
+        
+        I am a Lead Software Architect at <a href="http://dev.afas.nl/">AFAS</a>,
+        where I also occasionally write (both English and Dutch). First and foremost a software developer, love the web.
+      </p>
+      <p id="profile">
+        As part of the <a href="http://amuse-project.org/">AMUSE project</a> as a PhD candidate, I am also a researcher.
+        The focus of my research is <i>How to update running Enterprise Application Software in a model-driven, cloud-based platform</i>.
+        Topics include among others model-driven development, software evolution, continuous delivery.<br />
+      </p>
+      <p id="profile">
+        These are my opinions and experiments. The posts are "AS IS", no warranties.
+        You are, however, welcome to react on <a href="http://twitter.com/michielovereem">twitter</a>!
+      </p>
+      <p id="profile">
+        This is hosted on <a href="http://pages.github.com/">github pages</a> and
         build with <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
         You can <a href="https://github.com/overeemm/overeemm.github.com">fork me</a>.
       </p>
@@ -124,9 +129,9 @@
 
     <div class="twelve columns content">
       <ul class="menu">
-        <li>Browse all posts</li>
+        <li>Browse blog posts: </li>
         <li><a title="View posts by date" href="/date.html">by date</a></li>
-        <li><a title="View posts by topic" href="/topic.html">by topic</a></li>
+        <li class="sep"><a title="View posts by topic" href="/topic.html">by topic</a></li>
       </ul>
     </div>
 

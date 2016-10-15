@@ -33,7 +33,7 @@ a.plus { background-position: 0px -16px }
 a.linkedin { background-position: -16px -16px }
 
 ul.menu li { display: inline-block; list-style-type: none}
-ul.menu li:before { content: " | ";}
+ul.menu li.sep:before { content: " | ";}
 ul.menu li:first-child:before { content: "";}
 
 img.avatar { float: right; }

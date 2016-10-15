@@ -1,31 +1,32 @@
 body { background-color: #fff; color: rgba(0,0,0,0.8); }
 a, a:visited, a:active, a:hover { color: rgba(0,0,0,0.8); text-decoration: none; font-weight: bold; }
 
-.content p, .content li, .content ol { font-family: Georgia; font-size: 18px; line-height: 1.8; color: rgba(0,0,0,0.8); }
+.content p, .content li, .content ol { font-family: Georgia; font-size: 14px; line-height: 1.8; color: rgba(0,0,0,0.8); }
+.content img.photo { float: left; display: block; margin-right: 10px; margin-bottom: 50px; }
 span.date { display: inline-block; width: 150px; font-style: italic; /*font-family: Georgia; */}
-span.postinfo { padding: 0px 0px 4px 0px; font-size: 12pt; font-style: italic; }
-
+span.smallpostinfo, span.postinfo { padding: 0px 0px 4px 0px; font-size: 12pt; font-style: italic; }
+span.smallpostinfo { font-size: 10pt; }
 .content, .summary { max-width: 800px; margin: 0px auto;}
 
-.container.headersmall { height: 100px; margin: 0px; padding: 0px; width: 100%;
+.container.header, .container.headersmall { height: 100px; margin: 0px; padding: 0px; width: 100%;
   background-image: url('/images/headersmall.png'); background-position: 0 -75px; 
   background-repeat: repeat;
 }
-.container.header { height: 400px; background-image: url('/images/header.jpg'); background-position: 0 -75px; margin: 0px; padding: 0px; width: 100%;}
 .container.footer { border-top: solid 1px #eee; padding-top: 10px;}
 
 .profile { padding-top: 10px;}
 
 .right { float: right; padding-right: 10px; }
+.content .right { margin-left: 20px; }
 .left { float: left; padding-bottom: 80px; padding-right: 10px; }
 .avatar { margin-bottom: 10px; }
 
 ul.menu { padding: 0px;}
 ul.menu li { display: inline-block; list-style-type: none}
-ul.menu li:before { content: " | ";}
+ul.menu li.sep:before { content: " | ";}
 ul.menu li:first-child:before { content: "";}
 
-.container.headersmall h1 { width: 800px; margin: 30px auto 0px; color: #fff; }
+.container.headersmall h1 { width: 800px; margin: 30px auto 0px; color: #fff;}
 .container.headersmall h1 a { color: #ccc;}
 div.contact { width: 800px; margin: 10px auto 0px; text-align: right; }
 
