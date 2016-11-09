@@ -7,16 +7,16 @@ layout: nil
     <title>Michiel Overeem's blog</title>
     <description>Michiel Overeem's blog</description>
     <generator>Jekyll</generator>
-    <link href="http://blog.movereem.nl/rss.xml" rel="self"/>
-    <link href="http://blog.movereem.nl/"/>
-    <atom:link href="http://blog.movereem.nl/rss.xml" rel="self"/>
+    <link href="http://www.movereem.nl/rss.xml" rel="self"/>
+    <link href="http://www.movereem.nl/"/>
+    <atom:link href="http://www.movereem.nl/rss.xml" rel="self"/>
     
     {% for post in site.posts limit:50 %}
     <item>
 	    <title>{{ post.title | xml_escape }}</title>
-	    <link href="http://blog.movereem.nl{{ post.url }}"/>
+	    <link href="http://www.movereem.nl{{ post.url }}"/>
         <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
- 	    <guid>http://blog.movereem.nl{{ post.id }}</guid>
+ 	    <guid>http://www.movereem.nl{{ post.id }}</guid>
 		<description type="html">{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}

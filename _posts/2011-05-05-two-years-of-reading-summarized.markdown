@@ -45,4 +45,4 @@ On to some more reading!
 [9]: http://code.google.com/apis/chart/image/
 [10]: http://www.sony.nl/product/rd-reader-ebook/prs-300
 [11]: http://www.apple.com/ipad 
-[12]: http://blog.movereem.nl/ebooks-uitlenen
+[12]: http://www.movereem.nl/ebooks-uitlenen

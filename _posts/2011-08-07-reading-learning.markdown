@@ -23,13 +23,13 @@ I hope to get some fluency in Ruby and try on [IronRuby][8] and [MacRuby][9]. Th
 
 The big eye-opener here is that I have to stop reading technical books, but I have to start doing them. Let’s see how I will do.
 
-[1]: http://blog.movereem.nl/two-years-of-reading-summarized
+[1]: http://www.movereem.nl/two-years-of-reading-summarized
 [2]: http://oreilly.com/bloggers/
-[3]: http://blog.movereem.nl/topic.html#bookreview
-[4]: http://blog.movereem.nl/bookreview-head-first-iphone-ipad-development
+[3]: http://www.movereem.nl/topic.html#bookreview
+[4]: http://www.movereem.nl/bookreview-head-first-iphone-ipad-development
 [5]: https://github.com/overeemm/iArk
-[6]: http://blog.movereem.nl/bookreview-the-book-of-ruby
-[7]: http://blog.movereem.nl/bookreview-seven-languages-in-seven-weeks-by
+[6]: http://www.movereem.nl/bookreview-the-book-of-ruby
+[7]: http://www.movereem.nl/bookreview-seven-languages-in-seven-weeks-by
 [8]: http://ironruby.net/
 [9]: http://www.macruby.org/
 [10]: http://codekata.pragprog.com/2007/01/code_kata_backg.html

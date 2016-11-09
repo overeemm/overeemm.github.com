@@ -57,7 +57,7 @@ Which books should I add? Let me know on [twitter][17]!
 + [Clojure Programming by Chas Emerick, Brian Carper, Christophe Grand][18] via [@borkdude][19]
 
 [1]: http://www.afas.nl/
-[2]: http://blog.movereem.nl/bookreview-beginning-phonegap/
+[2]: http://www.movereem.nl/bookreview-beginning-phonegap/
 [3]: http://www.codinghorror.com/blog/2007/10/do-not-buy-this-book.html
 [4]: http://shop.oreilly.com/product/0636920019978.do
 [5]: http://www.amazon.com/dp/1468093657/ref=cm_sw_r_tw_dp_Zde3qb0J7DYG4

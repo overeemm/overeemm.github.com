@@ -147,5 +147,5 @@ On stackoverflow [a nice example][7] is given. The principle is that you redefin
 [3]: http://en.wikipedia.org/wiki/Closure_(computer_science)
 [4]: http://www.movereem.nl/conwaysscriptoflife/
 [5]: https://github.com/overeemm/ConwaysScriptOfLife
-[6]: http://blog.movereem.nl/evolving-technology-javascript
+[6]: http://www.movereem.nl/evolving-technology-javascript
 [7]: http://stackoverflow.com/a/1895669
