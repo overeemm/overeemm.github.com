@@ -4,7 +4,7 @@ a, a:visited, a:active, a:hover { color: rgba(0,0,0,0.8); text-decoration: none;
 .content p, .content li, .content ol { font-family: Georgia; font-size: 14px; line-height: 1.8; color: rgba(0,0,0,0.8); }
 .content img.photo { float: left; display: block; margin-right: 10px; margin-bottom: 50px; }
 span.date { display: inline-block; width: 150px; font-style: italic; /*font-family: Georgia; */}
-span.smallpostinfo, span.postinfo { padding: 0px 0px 4px 0px; font-size: 12pt; font-style: italic; }
+span.smallpostinfo, span.postinfo { padding: 0px 0px 4px 0px; font-size: 10pt; font-style: italic; }
 span.smallpostinfo { font-size: 10pt; }
 .content, .summary { max-width: 800px; margin: 0px auto;}
 
