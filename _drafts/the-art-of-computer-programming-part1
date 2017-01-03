@@ -1,0 +1,41 @@
+---
+layout: posts
+title: The Art of Computer Programming - part 1
+categories: [taocp]
+---
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Goal for 2017: read through this massive work. <a href="https://twitter.com/hashtag/knuth?src=hash">#knuth</a> <a href="https://twitter.com/hashtag/art?src=hash">#art</a> <a href="https://twitter.com/hashtag/computerprogramming?src=hash">#computerprogramming</a> <a href="https://twitter.com/hashtag/taocp?src=hash">#taocp</a> <a href="https://t.co/DGh5XnVg8X">pic.twitter.com/DGh5XnVg8X</a></p>&mdash; Michiel Overeem (@michielovereem) <a href="https://twitter.com/michielovereem/status/811228070740893699">December 20, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+I have these books on my shelve since graduation (2007), and a couple of weeks ago I finally set the goal to actually read them. 
+So in these series I will summarize, share notes, and tell the world about my progress.
+
+These books are impressive. 
+And to be honest a little intimidating. 
+I like reading and learning, but I'm not sure if I can follow all this stuff. 
+But we will see.
+
+### sections 1.1 and 1.2
+
+_I read the Third Edition of Volume 1_
+
+Section 1.1 is labeled __Algorithms__. The first section was fun. 
+Some history mixed with some background on algorithms. 
+Background such as the origin of the word _algorithm_. 
+I sure didn't know that its origins are in the name of the Persian author [al-Khwārizmī][1].
+
+Section 1.2 is __Mathematical Preliminaries__ and for this section I followed the advise of Knuth.
+I skimmed these sections, familiarized myself with the things I already learned and read some new stuff.
+I did not do any exercises.
+To be honest, I am more interested in the computer programming parts and less in the math part.
+The subsections of 1.2 covered numbers, powers, logarithms, sums, products, integer functions, permutations, factorials, n over k, harmonic numbers, fibonacci, generating functions, the analysis of algorithms, and asymptotic representations.
+
+The last subsection was interesting as it covered the [big-O notation][2].
+And it made my think about another book in my digital shelve: [The Imposter’s Handbook][3].
+In this book Rob Conery dives into all kinds of computer science topics for those who never studied computer science.
+And to be honest, his explanations also make sence for the ones that did study computer science (yep, that's me).
+In this case I read Knuth's subsection and after that I read what Rob Conery said about it.
+Knuth is pure with all the math, while Rob gives an overview, but they inforce each other and I am good to go :)
+
+[1]: https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi
+[2]: https://en.wikipedia.org/wiki/Big_O_notation
+[3]: https://bigmachine.io/products/the-imposters-handbook/
