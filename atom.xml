@@ -1,25 +1,24 @@
 ---
-layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Michiel Overeem's blog</title>
- <link href="http://www.movereem.nl/atom.xml" rel="self"/>
- <link href="http://www.movereem.nl/"/>
+ <link href="https://www.movereem.nl/atom.xml" rel="self"/>
+ <link href="https://www.movereem.nl/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://www.movereem.nl/</id>
+ <id>https://www.movereem.nl/</id>
  <author>
     <name>Michiel Overeem</name>
-    <email>overeemm@gmail.com</email>
+    <email>michiel@movereem.nl</email>
  </author>
 
  {% for post in site.posts limit:50 %}
     <entry>
 	    <title>{{ post.title | xml_escape }}</title>
-	    <link href="http://www.movereem.nl{{ post.url }}"/>
+	    <link href="https://www.movereem.nl{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
- 	    <id>http://www.movereem.nl{{ post.id }}</id>
+ 	    <id>https://www.movereem.nl{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
  {% endfor %}

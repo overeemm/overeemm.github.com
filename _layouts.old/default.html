@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta charset="utf-8">
+  <meta name="description" content="www.movereem.nl">
+  <meta name="author" content="Michiel Overeem">
+
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/bootstrap.app.css" rel="stylesheet">
+
+  <script src="/scripts/modernizr.foundation.js"></script>
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <link href="/css/shCore.css" rel="stylesheet" type="text/css" />
+  <link href="/css/shThemeMidnight.css" rel="stylesheet" type="text/css" />
+
+  <title>{{ page.title }}</title>
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="images/favicon.ico"/>
+
+  <link rel="me" type="text/html" href="http://twitter.com/michielovereem"/> 
+  <link rel="me" type="text/html" href="http://nl.linkedin.com/in/movereem"/> 
+  <link rel="me" type="text/html" href="http://feeds.feedburner.com/MichielOvereem"/>
+
+  <link rel="alternate" type="application/atom+xml" title="Michiel Overeem" href="http://feeds.feedburner.com/MichielOvereem" />
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37825823-1']);
+    _gaq.push(['_setDomainName', 'movereem.nl']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+<body>
+
+  <div class="container headersmall">
+    <h1>
+      <a href="/">{{ site.title }}</a>
+    </h1>
+   
+    <div class="contact">
+      <a class="icons rss" title="Atom feed" href="http://feeds.feedburner.com/MichielOvereem"></a>
+      <a class="icons twitter" title="follow me on twitter" href="http://twitter.com/michielovereem"></a>
+      <a class="icons linkedin" title="LinkedIn" href="http://nl.linkedin.com/in/movereem"></a>
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <div class="twelve columns content">
+      <ul class="menu">
+        <li><a title="View publications" href="/pubspres.html">Publications and presentations</a></li>
+        <li class="sep"><a title="View blogs by date" href="/date.html">Blogs</a></li>
+      </ul>
+    </div>
+
+  </div>  
+
+  <div class="container">
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+  </div>
+
+  <div class="container footer">
+    
+    <div class="content">
+      <div class="right">
+        <div id="creativecommons">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" title="Creative Commons License" src="/images/cc88x31.png"/></a>
+              <!--
+                  <rdf:RDF xmlns="http://creativecommons.org/ns#"
+                    xmlns:dc="http://purl.org/dc/elements/1.1/"
+                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <Work rdf:about="">
+                  <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+                  </Work>
+          
+                  <License rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                     <requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+                     <permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+                     <permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+                     <permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+                     <requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+                     <prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+                     <requires rdf:resource="http://creativecommons.org/ns#Notice" />
+                  </License>
+          
+                  </rdf:RDF>
+              -->
+        </div>
+      </div>
+      <p id="profile">
+        &copy; Michiel Overeem. 
+        You are welcome to react on <a href="http://twitter.com/michielovereem">twitter</a>.
+      </p>
+      
+    </div>
+  </div>
+
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+  <script src="/scripts/shCore.js" type="text/javascript"></script>
+  <script src="/scripts/shAutoloader.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+
+    $('code').each(function () {
+      var $codeBlock = $(this);
+      var $preBlock = $codeBlock.parent("pre");
+      if($preBlock.length === 1) {
+        var lines = $codeBlock.text().split(/\r\n|\r|\n/);
+        var firstLine = lines[0];
+        if(firstLine.indexOf('#') === 0) {
+          // Something like #js
+          $preBlock.addClass("brush: "+firstLine.substring(1));
+          $preBlock.html(lines.slice(1).join("\n"));
+        }
+      }
+    });
+
+    SyntaxHighlighter.autoloader(
+      'js jscript javascript  /scripts/shBrushJScript.js',
+      'applescript            /scripts/shBrushAppleScript.js',
+      'c# c-sharp csharp      /scripts/shBrushCSharp.js',
+      'java                   /scripts/shBrushJava.js',
+      'xml xhtml xslt html    /scripts/shBrushXml.js',
+      'ruby rails ror rb      /scripts/shBrushRuby.js',
+      'css                    /scripts/shBrushCss.js'
+    );
+
+    SyntaxHighlighter.all();
+  </script>
+
+</body>
+</html>
