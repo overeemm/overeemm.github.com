@@ -6,7 +6,7 @@ title: Michiel Overeem's blog
 As a Lead Software Architect at <a href="https://www.afas.nl/">AFAS</a> I'm responsible for the generator architecture of our low-code platform.
 With our in-house low-code platform we develop our <a href="https://kleinzakelijk.afas.nl/">next gen ERP system (dutch)</a>.
 I'm a hands-on architect, so I write code (mostly in C#). 
-I do like to <a href="/pubspres.html">give talks or write stuff</a> on our approach.
+I do like to <a href="/pubspres">give talks or write stuff</a> on our approach.
 
 As an external PhD candidate at <a href="https://www.uu.nl/en/research/software-systems/organization-and-information/labs/software-ecosystems">Utrecht University</a>, I also conduct research.
 My daily supervisor is <a href="https://slingerjansen.nl/">Slinger Jansen</a>.
