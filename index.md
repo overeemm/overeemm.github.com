@@ -8,8 +8,8 @@ With our in-house low-code platform we develop our <a href="https://kleinzakelij
 I'm a hands-on architect, so I write code (mostly in C#). 
 I do like to <a href="/pubspres">give talks or write stuff</a> on our approach.
 
-I've recently finished my PhD dissertation at <a href="https://www.uu.nl/en/research/software-systems/organization-and-information/labs/software-ecosystems">Utrecht University</a>.
-My daily supervisor is <a href="https://slingerjansen.nl/">Slinger Jansen</a>.
+I've recently finished my <a href="/files/dissertation.pdf">PhD</a> at <a href="https://www.uu.nl/en/research/software-systems/organization-and-information/labs/software-ecosystems">Utrecht University</a>.
+My daily supervisor was <a href="https://slingerjansen.nl/">Slinger Jansen</a>.
 My research interests are low-code development platforms, model-driven development, event sourcing, CQRS, software evolution, and continuous delivery.
 
 These are my opinions and experiments. The posts are "AS IS", no warranties.
