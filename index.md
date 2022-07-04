@@ -15,5 +15,3 @@ You are, however, welcome to react on <a href="http://twitter.com/michielovereem
 
 This is hosted on <a href="http://pages.github.com/">github pages</a>,
 build with <a href="https://github.com/mojombo/jekyll/">Jekyll</a>, and uses the <a href="https://github.com/poole/hyde">Hyde</a> theme.
-
-![Michiel Overeem](/images/movereem.jpg)

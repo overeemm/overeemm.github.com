@@ -3,7 +3,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Michiel Overeem's blog</title>
+ <title>Dr. Michiel Overeem</title>
  <link href="https://www.movereem.nl/atom.xml" rel="self"/>
  <link href="https://www.movereem.nl/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
