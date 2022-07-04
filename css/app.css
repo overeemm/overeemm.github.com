@@ -25,9 +25,7 @@ h1.siteheader { float: left; width: auto; margin: 10px 0px; font-size: 30px;}
 h1.siteheader a, h1.siteheader a:visited, h1.siteheader a:active, h1.siteheader a:hover { color: #eee; }
 div.contact { float: right; margin: 20px 10px 0px 0px; width: 100px; text-align: right; }
 
-.sidebar h1 a {
-  font-size: 1.5rem;
-}
+.sidebar-about h1, .sidebar-about h1 a { font-size: 30px; }
 
 a.icons { width: 16px; height: 16px; display: inline-block;
              background-image: url("/images/blog.png"); }
