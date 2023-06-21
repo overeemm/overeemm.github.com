@@ -3,9 +3,9 @@ layout: default
 title: Dr. Michiel Overeem
 ---
 
-As a Lead Software Architect at <a href="https://www.afas.nl/">AFAS</a> I'm responsible for the architecture of our low-code platform.
+As an Engineering Manager at <a href="https://www.afas.nl/">AFAS</a> I'm responsible for the development team that designs and develops our low-code platform.
 With our in-house low-code platform we develop our <a href="https://kleinzakelijk.afas.nl/">next gen ERP system (dutch)</a>.
-I write code (mostly in C#), design new features, support the development teams, and <a href="/pubspres">give talks or write stuff</a> on our approach.
+I used to write code (mostly in C#), nowadays I design new features, support the development teams, and <a href="/pubspres">give talks or write stuff</a> on our approach.
 
 I have a PhD from <a href="https://www.uu.nl/en/research/software-systems/organization-and-information/labs/software-ecosystems">Utrecht University</a>, I did my research under the supervision of <a href="https://slingerjansen.nl/">Slinger Jansen</a>.
 My research interests are low-code development platforms, model-driven development, event sourcing, CQRS, software evolution, and continuous delivery.
