@@ -12,3 +12,4 @@ a.bluesky { background-position: -32px -16px }
 ul.postlist { 
     list-style-type: none;
     padding-inline: 0px; }
+ul.postlist span { font-size: 12px; }
