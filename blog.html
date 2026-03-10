@@ -5,8 +5,8 @@ title: Posts by date
 <ul class="postlist">
     {% for post in site.posts %}
     <li>
-        <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
         <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
+        <span class="date">({{ post.date | date: "%d %B %Y" }})</span>
     </li>
     {% endfor %}
 </ul>
